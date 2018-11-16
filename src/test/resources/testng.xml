@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+    <!-- @BeforeTest -->
+    <test name="case1">
+        <classes>
+            <!--<class name="com.itheima.demo.TestDBConnection" />-->
+            <!--<class name="com.itheima.demo.DBConfig" />-->
+            <class name="com.itheima.demo.MyDemo" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+    <!-- @BeforeTest -->
+    <!--<test name="case2">-->
+        <!--<classes>-->
+            <!--<class name="com.itheima.demo.TestDBConnection" />-->
+            <!--<class name="com.itheima.demo.DBConfig" />-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!-- @AfterTest -->
+
+</suite>
+        <!-- @AfterSuite -->
